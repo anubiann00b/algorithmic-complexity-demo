@@ -1,0 +1,97 @@
+body{
+  background-color:#000;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#wrapper{
+  width: 900px;
+  margin: 0 auto;
+  background-color:#666666;
+}
+
+
+#header{
+   width:900px;
+   background-image:url(pic.jpg);
+   background-repeat:no-repeat;
+   background-position:top;
+   background-color:#333333;
+}
+
+#header p{
+   color:#fff;
+   font-size:62px;
+   margin:0;
+   padding: 12px 12px 12px 12px;
+}
+
+#menu{
+	height:25px;
+	font-size:11px;
+	color:#fff;
+	background-color:#999999;
+}
+#menu ul{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+#menu ul li{
+	display:inline;
+}
+#menu ul li a{
+	float:left;
+	padding:6px 0;
+	width:65px;
+	text-align:center;
+}
+
+#content{
+  background-color:#CCCCCC;
+  width:900px;
+}
+
+#content h1{
+  font-size:20px;
+  font-weight:normal;
+  margin: 0 6px;
+  padding: 15px 0 3px 0;
+}
+#content p{
+  color:#000;
+  font-size:14px;
+  margin: 0 6px; 
+  padding: 0 6px 9px 6px; 
+}
+
+#information{
+  margin:16px 6px;
+  width:200px;
+  float:right;
+  background-color:#FF0000;
+  border:1px solid #000;
+}
+#information p{
+  font-size:11px;
+  color:#fff;
+  margin: 0;
+  padding: 6px;
+}
+
+#footer{
+  clear:both; 
+  background-color:#999999;
+  height:20px;
+}
+input[type="button"]{
+    border-radius:6px;
+    color: #333;
+	font-size: 16px;
+	box-shadow:0px 0px 1px #777;
+}
+input[type="button"]:hover{
+	border:none;
+	background:black;
+	color: #666;
+	box-shadow:0px 0px 1px #000;
+}
